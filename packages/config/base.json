@@ -22,12 +22,7 @@
     "resolveJsonModule": true,
     "allowJs": true,
     "noEmit": true,
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
+    "incremental": true
   },
   "exclude": ["node_modules"]
 }
