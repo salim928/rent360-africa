@@ -1,1 +1,31 @@
-{"name":"rent360-africa","version":"0.1.0","private":true,"description":"Pan-African AI-powered rental marketplace + management SaaS","scripts":{"dev":"turbo run dev","dev:web":"turbo run dev --filter=@rent360/web","dev:mobile":"turbo run dev --filter=@rent360/mobile","build":"turbo run build","build:web":"turbo run build --filter=@rent360/web","lint":"turbo run lint","format":"prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"","clean":"turbo run clean && rm -rf node_modules","typecheck":"turbo run typecheck"},"devDependencies":{"@rent360/eslint-config":"workspace:*","@rent360/typescript-config":"workspace:*","eslint":"^8.57.0","prettier":"^3.2.5","prettier-plugin-tailwindcss":"^0.5.14","turbo":"^2.1.0"},"packageManager":"pnpm@9.1.0","engines":{"node":">=20.0.0"},"workspaces":["apps/*","packages/*"]}
+{
+  "name": "rent360-africa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pan-African AI-powered rental marketplace + management SaaS",
+  "packageManager": "npm@10.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=@rent360/web",
+    "dev:mobile": "turbo run dev --filter=@rent360/mobile",
+    "build": "turbo run build",
+    "build:web": "turbo run build --filter=@rent360/web",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "turbo": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

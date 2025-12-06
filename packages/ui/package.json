@@ -14,8 +14,8 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@rent360/eslint-config": "workspace:*",
-    "@rent360/typescript-config": "workspace:*",
+    "@rent360/eslint-config": "*",
+    "@rent360/typescript-config": "*",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "typescript": "^5.4.5"

@@ -10,8 +10,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@rent360/eslint-config": "workspace:*",
-    "@rent360/typescript-config": "workspace:*",
+    "@rent360/eslint-config": "*",
+    "@rent360/typescript-config": "*",
     "typescript": "^5.4.5"
   },
   "dependencies": {
